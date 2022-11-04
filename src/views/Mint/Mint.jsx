@@ -115,6 +115,16 @@ const Mint = () => {
     SET_CONFIG(config);
   };
 
+  // Renderer callback with condition
+  const renderer = ({ days, hours, minutes, seconds, completed }) => {
+    if (completed) {
+      setMintEnd(true)
+    } else {
+      // Render a countdown
+      return <span>{days} Days {hours} Hours {minutes} Minutes {seconds} Seconds</span>;
+    }
+  };
+
   useEffect(() => {
     getConfig();
   }, []);
@@ -135,13 +145,13 @@ const Mint = () => {
           <img src='/images/mintNFT.jpg' alt="nft" width={200} style={{ borderRadius: '50%' }} />
         </Box>
         <Box className={classes.box}>
-          <Typography variant='h3' sx={{ fontSize: '40px', fontWeight: 'bold', my: 2 }}>
+          <Typography variant='h3' sx={{ fontSize: '25px', fontWeight: 'bold', my: 2 }}>
             {
               !mintEnd && Number(data.mintDuration) > new Date().getTime() &&
               <Countdown
                 date={Number(data.mintDuration)}
                 // date={Date.now() + 5000}
-                onComplete={() => setMintEnd(true)}
+                renderer={renderer}                
               />
             }
 
