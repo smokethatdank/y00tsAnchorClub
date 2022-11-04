@@ -1,7 +1,7 @@
 const initialState = {
   loading: false,
   totalSupply: 0,
-  mintDuration: 1669852799000,
+  mintDuration: 1670198039000,
   cost: 0,
   error: false,
   errorMsg: "",
