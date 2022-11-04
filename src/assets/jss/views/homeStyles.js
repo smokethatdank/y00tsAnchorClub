@@ -75,6 +75,9 @@ const homeStyles = ((theme) => ({
   footer: {
     marginTop: '50px',
     textAlign: 'center',
+    whiteSpace: 'nowrap',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
     '& h3': {
       fontWeight: 'bold',
       fontSize: '18px',
