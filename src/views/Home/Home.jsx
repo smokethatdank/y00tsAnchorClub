@@ -27,7 +27,7 @@ const Home = () => {
 
         {/* Main background section start */}
         <Box className={classes.mainBackground}>
-          <img src="/images/background1.jpg" alt="background" width={1080} style={{ borderRadius: '15px' }} />
+          <img src="/images/background1.jpeg" alt="background" width='100%' style={{ borderRadius: '15px' }} />
         </Box>
         {/* Main background section end */}
 
