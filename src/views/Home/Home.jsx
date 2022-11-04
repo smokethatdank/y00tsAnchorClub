@@ -138,19 +138,6 @@ const Home = () => {
             </Grid>
             <Grid item xs={12} md={4} lg={4}>
               <Box >
-                <img src='/images/gorkulus.png' alt="gorkulus" width="100%" style={{ borderRadius: '30px' }} />
-              </Box>
-              <Typography variant='h4' sx={{ mt: 2 }}>
-                @gorkulus
-              </Typography>
-              <Typography variant='h6' sx={{ mb: 3 }}>
-                Advisor
-              </Typography>
-            </Grid>
-          </Grid>
-          <Grid container spacing={2} rowSpacing={2} display='flex' justifyContent='center'>
-            <Grid item xs={12} md={3} lg={3}>
-              <Box >
                 <img src='/images/HaiJakd.png' alt="HaiJakd" width="100%" style={{ borderRadius: '30px' }} />
               </Box>
               <Typography variant='h4' sx={{ mt: 2 }}>
@@ -158,6 +145,19 @@ const Home = () => {
               </Typography>
               <Typography variant='h6' sx={{ mb: 3 }}>
                 Artist
+              </Typography>
+            </Grid>
+          </Grid>
+          <Grid container spacing={2} rowSpacing={2} display='flex' justifyContent='center'>
+            <Grid item xs={12} md={3} lg={3}>
+              <Box >
+                <img src='/images/gorkulus.png' alt="gorkulus" width="100%" style={{ borderRadius: '30px' }} />
+              </Box>
+              <Typography variant='h4' sx={{ mt: 2 }}>
+                @gorkulus
+              </Typography>
+              <Typography variant='h6' sx={{ mb: 3 }}>
+                Advisor
               </Typography>
             </Grid>
             <Grid item xs={12} md={3} lg={3}>
