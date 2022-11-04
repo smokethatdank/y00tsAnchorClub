@@ -27,7 +27,7 @@ const Home = () => {
 
         {/* Main background section start */}
         <Box className={classes.mainBackground}>
-          <img src="/images/background1.jpg" alt="background" width='100%' style={{ borderRadius: '15px' }} />
+          <img src="/images/background1.jpg" alt="background" width={1080} style={{ borderRadius: '15px' }} />
         </Box>
         {/* Main background section end */}
 
@@ -114,7 +114,7 @@ const Home = () => {
             TEAM
           </Typography>
           <Grid container spacing={2} rowSpacing={2} display='flex' justifyContent='center'>
-            <Grid item xs={12} md={4} lg={2}>
+            <Grid item xs={12} md={4} lg={4}>
               <Box >
                 <img src='/images/smokethatdank1.png' alt="smokethatdank1" width="100%" style={{ borderRadius: '30px' }} />
               </Box>
@@ -125,7 +125,7 @@ const Home = () => {
                 Co-Founder
               </Typography>
             </Grid>
-            <Grid item xs={12} md={4} lg={2}>
+            <Grid item xs={12} md={4} lg={4}>
               <Box >
                 <img src='/images/creamcurtis.png' alt="creamcurtis" width="100%" style={{ borderRadius: '30px' }} />
               </Box>
@@ -136,7 +136,7 @@ const Home = () => {
                 Co-Founder
               </Typography>
             </Grid>
-            <Grid item xs={12} md={4} lg={2}>
+            <Grid item xs={12} md={4} lg={4}>
               <Box >
                 <img src='/images/gorkulus.png' alt="gorkulus" width="100%" style={{ borderRadius: '30px' }} />
               </Box>
@@ -147,7 +147,9 @@ const Home = () => {
                 Advisor
               </Typography>
             </Grid>
-            <Grid item xs={12} md={4} lg={2}>
+          </Grid>
+          <Grid container spacing={2} rowSpacing={2} display='flex' justifyContent='center'>
+            <Grid item xs={12} md={3} lg={3}>
               <Box >
                 <img src='/images/HaiJakd.png' alt="HaiJakd" width="100%" style={{ borderRadius: '30px' }} />
               </Box>
@@ -158,7 +160,7 @@ const Home = () => {
                 Artist
               </Typography>
             </Grid>
-            <Grid item xs={12} md={4} lg={2}>
+            <Grid item xs={12} md={3} lg={3}>
               <Box >
                 <img src='/images/TheHornyDegen.png' alt="TheHornyDegen" width="100%" style={{ borderRadius: '30px' }} />
               </Box>
@@ -169,9 +171,9 @@ const Home = () => {
                 Director of Vibes
               </Typography>
             </Grid>
-            <Grid item xs={12} md={4} lg={2}>
+            <Grid item xs={12} md={3} lg={3}>
               <Box >
-                <img src='/images/Banned.Muffin.png' alt="Banned.Muffin" width="100%" style={{ borderRadius: '30px' }} />
+                <img src='/images/Banned.Muffin.jpg' alt="Banned.Muffin" width="100%" style={{ borderRadius: '30px' }} />
               </Box>
               <Typography variant='h4' sx={{ mt: 2 }}>
                 Banned.Muffin
@@ -180,7 +182,19 @@ const Home = () => {
                 Technical Gigabrain
               </Typography>
             </Grid>
+            <Grid item xs={12} md={3} lg={3}>
+              <Box >
+                <img src='/images/BakedOcclusion.jpg' alt="BakedOcclusion" width="100%" style={{ borderRadius: '30px' }} />
+              </Box>
+              <Typography variant='h4' sx={{ mt: 2 }}>
+                BakedOcclusion
+              </Typography>
+              <Typography variant='h6' sx={{ mb: 3 }}>
+                Technical Gigabrain
+              </Typography>
+            </Grid>
           </Grid>
+
         </Box>
         {/* Team section end */}
 
@@ -218,7 +232,7 @@ const Home = () => {
           </Typography>
         </Box>
         {/* Footer section end */}
-      </Box>
+      </Box >
     </Box >
   );
 }
