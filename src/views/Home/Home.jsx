@@ -12,7 +12,7 @@ const useStyles = makeStyles(styles)
 const Home = () => {
 
   const classes = useStyles()
-  const contractAddress = '0x3k3k3j3j4k5jm6m6m767n5j4j4k4l3l3';
+  const contractAddress = '0xf220416a123B1b6a56aF480d258A2F6C781f927D';
   const communityAddress = '0x9c3Ce8721a275C9C1e14aBEfdCC16d973FCA3c21';
 
   return (
@@ -67,7 +67,7 @@ const Home = () => {
                 y00ts Anchor Club is a community-driven project born from the ashes of y00ts Yacht Club. The community was abandoned by the original team and left to die. But that’s not what happened. The community joined together and picked up the pieces. A new project was forged - a project by the people & for the people. The anchor was dropped and the anchor always hodls despite the storm.
               </Typography>
               <Box>
-                <Link href='https://opensea.io/en-US/collection/y00ts-yacht-club' target="_blank">
+                <Link href='https://opensea.io/collection/y00ts-anchor-club' target="_blank">
                   <Button variant="contained" className={classes.button}>
                     Buy on OpenSea
                   </Button>

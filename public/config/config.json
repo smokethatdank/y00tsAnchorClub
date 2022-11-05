@@ -1,10 +1,10 @@
 {
-  "CONTRACT_ADDRESS": "0xD3F5e289BeC08F8CdCfF6Afc3EdeaFe764b0BFaf",
-  "SCAN_LINK": "https://goerli.etherscan.io/address/0xD3F5e289BeC08F8CdCfF6Afc3EdeaFe764b0BFaf",
+  "CONTRACT_ADDRESS": "0xf220416a123B1b6a56aF480d258A2F6C781f927D",
+  "SCAN_LINK": "https://etherscan.io/address/0xf220416a123B1b6a56aF480d258A2F6C781f927D",
   "NETWORK": {
     "NAME": "Ethereum",
     "SYMBOL": "ETH",
-    "ID": 97
+    "ID": 1
   },
   "NFT_NAME": "y00ts Anchor Club",
   "SYMBOL": "YAC",
@@ -13,6 +13,6 @@
   "DISPLAY_COST": 0,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/en-US/collection/y00ts-yacht-club",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/y00ts-anchor-club",
   "SHOW_BACKGROUND": true
 }
