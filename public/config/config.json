@@ -1,9 +1,9 @@
 {
-  "CONTRACT_ADDRESS": "0xB29332D01b838c55c86606Bf8c979CFCE06b78A8",
-  "SCAN_LINK": "https://etherscan.io/address/0xf220416a123B1b6a56aF480d258A2F6C781f927D",
+  "CONTRACT_ADDRESS": "0xA96340B0A127B75C7Ed64847D5f26aa33eE93d0a",
+  "SCAN_LINK": "https://etherscan.io/address/0x4a8Dd6Ef12503F5EB82FBE8fb25798230220D479",
   "NETWORK": {
     "NAME": "Ethereum",
-    "SYMBOL": "ETH",
+    "SYMBOL": "TETH",
     "ID": 5
   },
   "NFT_NAME": "y00ts Anchor Club",
