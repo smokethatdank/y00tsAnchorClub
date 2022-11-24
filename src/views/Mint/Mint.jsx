@@ -58,11 +58,10 @@ const Mint = () => {
     console.log("Gas limit: ", totalGasLimit);
     setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
     setClaimingNft(true);
-    console.log('11111', blockchain.smartContract)
+
     blockchain.smartContract.methods
       .mint(mintAmount)
       .send({
-        gasLimit: String(totalGasLimit),
         to: CONFIG.CONTRACT_ADDRESS,
         from: blockchain.account,
         value: totalCostWei,
