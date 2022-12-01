@@ -144,6 +144,10 @@ const Mint = () => {
           <img src='/images/mintNFT.jpg' alt="nft" width={200} style={{ borderRadius: '50%' }} />
         </Box>
         <Box className={classes.box}>
+          <Typography variant='h3' sx={{ fontSize: '20px', fontWeight: 'bold', p: 2, pt: 3 }}>
+            Time remaining to get a y00ts Anchor Club NFT <br />
+            (free mint + gas) for each y00ts Yacht Club NFT you hold. After that you are permanently rugged.
+          </Typography>
           <Typography variant='h3' sx={{ fontSize: '25px', fontWeight: 'bold', my: 2 }}>
             {
               !mintEnd && Number(data.mintDuration) > new Date().getTime() &&

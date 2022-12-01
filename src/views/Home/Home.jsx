@@ -184,7 +184,7 @@ const Home = () => {
             </Grid>
             <Grid item xs={12} md={3} lg={3}>
               <Box >
-                <img src='/images/BakedOcclusion.jpg' alt="BakedOcclusion" width="100%" style={{ borderRadius: '30px' }} />
+                <img src='/images/BakedOcclusion.png' alt="BakedOcclusion" width="100%" style={{ borderRadius: '30px' }} />
               </Box>
               <Typography variant='h4' sx={{ mt: 2 }}>
                 BakedOcclusion
